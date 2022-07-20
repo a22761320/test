@@ -3,7 +3,7 @@
 <head>
 <meta charset=""utf-8></meta>
 <meta name="viewport" content="width=device-width, initial-scale=1, maxmum-scale=1" />
-<title>運動安全影像辨識</title>
+<title>聯絡我們</title>
 <script type="text/Javascript">	
     var initSubject='',initBody='';
  
@@ -29,24 +29,24 @@
 </script>
 <style type="text/css">
 @media screen and (max-width:600px){
-	.body{width:100%;height:100%;}
+	.text{width:100%;height:100%;}
 	
 	}
 </style>
 </head>
   
-<body id=:body onload="init()">
+<body class="body" onload="init()">
  <form   enctype="text/plain" accept-charset="utf-8">
      
-     <input id="nameText" type="text" name="Name"  value size="130" placeholder="姓名(name)" required>    
+     <input class="text" id="nameText" type="text" name="Name"  value size="130" placeholder="姓名(name)" required>    
      
-     <input id="emailText" type="email" name="Email"  value size="130" placeholder="Email" required>
+     <input class="text" id="emailText" type="email" name="Email"  value size="130" placeholder="Email" required>
      
-     <input id="telText"type="tel" name="Phone"  value size="130" aria-invalid="false" placeholder="電話(phone)" required>
+     <input class="text" id="telText"type="tel" name="Phone"  value size="130" aria-invalid="false" placeholder="電話(phone)" required>
     
-     <input  id="subText" type="text" name="Subject"  value size="130" aria-invalid="false" placeholder="主旨(subject)" required>
+     <input  class="text" id="subText" type="text" name="Subject"  value size="130" aria-invalid="false" placeholder="主旨(subject)" required>
             
-     <textarea id="bodyText" name="your-message" cols="120" rows="10"  aria-required="true" aria-invalid="false" placeholder="你的訊息(Your Message)" required></textarea>
+     <textarea class="text" id="bodyText" name="your-message" cols="120" rows="10"  aria-required="true" aria-invalid="false" placeholder="你的訊息(Your Message)" required></textarea>
      
      <div>
          <input type="button" value="送出訊息" onclick="submitHandler();">
